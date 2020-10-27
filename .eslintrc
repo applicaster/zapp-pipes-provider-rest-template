@@ -1,15 +1,4 @@
 {
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "sourceType": "module",
-    "allowImportExportEverywhere": false,
-    "codeFrame": true
-  },
-  "extends": ["airbnb-base", "prettier"],
-  "plugins": ["babel", "prettier"],
-  "rules": {
-    "prettier/prettier": ["error"],
-    "semi": ["error", "never"]
-  },
-  "env": {}
+  "extends": "@applicaster/eslint-config",
+  "parser": "babel-eslint"
 }
